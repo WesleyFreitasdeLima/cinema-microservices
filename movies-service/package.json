@@ -1,0 +1,23 @@
+{
+  "name": "movies-service",
+  "version": "1.0.0",
+  "description": "Prover informações sobre filmes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.test.js | tap-spec"
+  },
+  "author": "Wesley Lima",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1",
+    "mongodb": "^3.6.2",
+    "morgan": "^1.10.0",
+    "supertest": "^5.0.0",
+    "tape": "^5.0.1"
+  }
+}
